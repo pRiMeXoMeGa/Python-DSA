@@ -55,4 +55,4 @@ if __name__ == "__main__":
 [GeeksforGeeks Link](https://www.geeksforgeeks.org/problems/searching-in-an-array-where-adjacent-differ-by-at-most-k0456/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)
 
 ## 6. Search in a rotated sorted array
-[GeeksforGeeks Link](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+[Leetcode Link](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
