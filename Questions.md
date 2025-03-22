@@ -50,3 +50,9 @@ if __name__ == "__main__":
 ## 4. Write a Program to Cyclically Rotate an Array by One
 
 [GeeksforGeeks Link](https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1)
+
+## 5. Searching in an array where adjacent differ by at most k
+[GeeksforGeeks Link](https://www.geeksforgeeks.org/problems/searching-in-an-array-where-adjacent-differ-by-at-most-k0456/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)
+
+## 6. Search in a rotated sorted array
+[GeeksforGeeks Link](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
