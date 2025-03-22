@@ -51,8 +51,11 @@ if __name__ == "__main__":
 
 [GeeksforGeeks Link](https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1)
 
-## 5. Searching in an array where adjacent differ by at most k
+## 5. Find first and last positions of an element in a sorted array
+[GeeksforGeeks Link](https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x/0)
+
+## 6. Searching in an array where adjacent differ by at most k
 [GeeksforGeeks Link](https://www.geeksforgeeks.org/problems/searching-in-an-array-where-adjacent-differ-by-at-most-k0456/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)
 
-## 6. Search in a rotated sorted array
+## 7. Search in a rotated sorted array
 [Leetcode Link](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
