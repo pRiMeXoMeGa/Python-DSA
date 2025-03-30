@@ -65,3 +65,6 @@ if __name__ == "__main__":
 
 ## 9. Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo
 [GeeksforGeeks Link](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0)
+
+## 10. Minimum no. of Jumps to reach end of an array
+[GeeksforGeeks Link](https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1)
