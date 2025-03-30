@@ -59,3 +59,9 @@ if __name__ == "__main__":
 
 ## 7. Search in a rotated sorted array
 [Leetcode Link](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+
+## 8. find duplicate in an array of N+1 Integers
+[Leetcode_ link](https://leetcode.com/problems/find-the-duplicate-number/submissions/1591184118/)
+
+## 9. Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo
+[Leetcode Link](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0)
