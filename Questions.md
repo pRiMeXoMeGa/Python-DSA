@@ -68,3 +68,12 @@ if __name__ == "__main__":
 
 ## 10. Minimum no. of Jumps to reach end of an array
 [GeeksforGeeks Link](https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1)
+
+## 11. Missing Number
+[Leetcode Link](https://leetcode.com/problems/missing-number/description/)
+
+## 12. Find Minimum in Rotated Sorted Array
+[Leetcode Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
+
+
+
