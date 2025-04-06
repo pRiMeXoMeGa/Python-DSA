@@ -188,3 +188,191 @@ def prefixSum(A):
 - **Time Complexity**: O(N) - We iterate through the array once
 - **Space Complexity**: O(1) - We modify the array in-place without using additional space
 
+
+## 15. Equilibrium Index of an Array
+
+## Problem Description
+
+You are given an array A of integers of size N.
+
+Your task is to find the equilibrium index of the given array.
+
+The equilibrium index of an array is an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes.
+
+If there are no elements that are at lower indexes or at higher indexes, then the corresponding sum of elements is considered as 0.
+
+**Note:**
+- Array indexing starts from 0.
+- If there is no equilibrium index then return -1.
+- If there are more than one equilibrium indexes then return the minimum index.
+
+## Problem Constraints
+- 1 <= N <= 10^5
+- -10^5 <= A[i] <= 10^5
+
+## Input Format
+First argument is an array A.
+
+## Output Format
+Return the equilibrium index of the given array. If no such index is found then return -1.
+
+## Example Input
+**Input 1:**
+```
+A = [-7, 1, 5, 2, -4, 3, 0]
+```
+
+**Input 2:**
+```
+A = [1, 2, 3]
+```
+
+## Example Output
+**Output 1:**
+```
+3
+```
+
+**Output 2:**
+```
+-1
+```
+
+## Example Explanation
+**Explanation 1:**
+```
+i   Sum of elements at lower indexes    Sum of elements at higher indexes
+0                   0                                   7
+1                  -7                                   6
+2                  -6                                   1
+3                  -1                                  -1
+4                   1                                   3
+5                  -3                                   0
+6                   0                                   0
+```
+
+3 is an equilibrium index, because: 
+A[0] + A[1] + A[2] = A[4] + A[5] + A[6]
+
+**Explanation 2:**
+```
+i   Sum of elements at lower indexes    Sum of elements at higher indexes
+0                   0                                   5
+1                   1                                   3
+2                   3                                   0
+```
+Thus, there is no such index.
+
+## Solution Approach
+
+### Intuition
+To find the equilibrium index, we need to compare the sum of elements to the left of an index with the sum of elements to the right of it. A naive approach would require O(n^2) time complexity, but we can optimize this to O(n) by:
+
+1. First calculating the total sum of the array
+2. Then iterating through the array while maintaining a running sum of elements encountered so far
+3. At each index, the sum of right elements = totalSum - leftSum - current element
+4. An equilibrium index occurs when leftSum equals rightSum
+
+### Algorithm
+1. Calculate the sum of all array elements
+2. Initialize a variable leftSum = 0
+3. Iterate through each index i of the array:
+   - Calculate rightSum = totalSum - leftSum - A[i]
+   - If leftSum equals rightSum, return the current index i
+   - Update leftSum += A[i]
+4. If no equilibrium index is found, return -1
+
+### Time Complexity
+- O(n) - We make two passes through the array: one to calculate the total sum and one to find the equilibrium index
+
+### Space Complexity
+- O(1) - We use only a constant amount of extra space
+
+## Code Solution
+
+```python
+def equilibrium_index(A):
+    n = len(A)
+    
+    # Calculate the total sum of the array
+    total_sum = sum(A)
+    
+    # Initialize left_sum to track the running sum from left
+    left_sum = 0
+    
+    # Iterate through the array
+    for i in range(n):
+        # Right sum = total sum - left sum - current element
+        right_sum = total_sum - left_sum - A[i]
+        
+        # Check if this is an equilibrium index
+        if left_sum == right_sum:
+            return i
+        
+        # Update left sum for the next iteration
+        left_sum += A[i]
+    
+    # If no equilibrium index is found
+    return -1
+```
+
+## Alternative Solution in Java
+
+```java
+public class Solution {
+    public int solve(int[] A) {
+        int n = A.length;
+        
+        // Calculate total sum
+        long totalSum = 0;
+        for (int i = 0; i < n; i++) {
+            totalSum += A[i];
+        }
+        
+        // Traverse the array to find equilibrium index
+        long leftSum = 0;
+        for (int i = 0; i < n; i++) {
+            // Right sum = total sum - left sum - current element
+            long rightSum = totalSum - leftSum - A[i];
+            
+            if (leftSum == rightSum) {
+                return i;
+            }
+            
+            leftSum += A[i];
+        }
+        
+        return -1;
+    }
+}
+```
+
+## Dry Run Example
+
+Let's trace through the algorithm with the given example:
+`A = [-7, 1, 5, 2, -4, 3, 0]`
+
+1. Calculate total sum = -7 + 1 + 5 + 2 + (-4) + 3 + 0 = 0
+2. Initialize left_sum = 0
+
+3. Iteration 1: i = 0
+   - right_sum = 0 - 0 - (-7) = 7
+   - left_sum (0) != right_sum (7)
+   - Update left_sum = 0 + (-7) = -7
+
+4. Iteration 2: i = 1
+   - right_sum = 0 - (-7) - 1 = 6
+   - left_sum (-7) != right_sum (6)
+   - Update left_sum = -7 + 1 = -6
+
+5. Iteration 3: i = 2
+   - right_sum = 0 - (-6) - 5 = 1
+   - left_sum (-6) != right_sum (1)
+   - Update left_sum = -6 + 5 = -1
+
+6. Iteration 4: i = 3
+   - right_sum = 0 - (-1) - 2 = -1
+   - left_sum (-1) == right_sum (-1) ✓
+   - Return i = 3
+
+Therefore, the equilibrium index is 3.
