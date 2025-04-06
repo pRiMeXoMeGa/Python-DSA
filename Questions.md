@@ -122,4 +122,69 @@ B = [[0, 3], [1, 2]]
 
 Output 1
 Output = [10, 5]
+```
+
+## 14. In-place Prefix Sum
+
+## Problem Description
+Given an array A of N integers. Construct prefix sum of the array in the given array itself.
+
+## Problem Constraints
+- 1 <= N <= 10^5
+- 1 <= A[i] <= 10^3
+
+## Input Format
+Only argument A is an array of integers.
+
+## Output Format
+Return an array of integers denoting the prefix sum of the given array.
+
+## Example Input
+**Input 1:**
+```
+A = [1, 2, 3, 4, 5]
+```
+
+**Input 2:**
+```
+A = [4, 3, 2]
+```
+
+## Example Output
+**Output 1:**
+```
+[1, 3, 6, 10, 15]
+```
+
+**Output 2:**
+```
+[4, 7, 9]
+```
+
+## Example Explanation
+**Explanation 1:**
+The prefix sum array of [1, 2, 3, 4, 5] is [1, 3, 6, 10, 15].
+
+**Explanation 2:**
+The prefix sum array of [4, 3, 2] is [4, 7, 9].
+
+## Solution Approach
+To construct the prefix sum in-place:
+1. Start from the second element (index 1)
+2. For each position i, add the value at position i-1 to the current value
+3. Continue this process until the end of the array
+
+This replaces each element with the sum of all elements up to and including its position.
+
+## Code Solution
+```python
+def prefixSum(A):
+    for i in range(1, len(A)):
+        A[i] += A[i-1]
+    return A
+```
+
+## Time and Space Complexity
+- **Time Complexity**: O(N) - We iterate through the array once
+- **Space Complexity**: O(1) - We modify the array in-place without using additional space
 
