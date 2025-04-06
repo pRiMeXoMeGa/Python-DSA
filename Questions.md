@@ -17,6 +17,7 @@
 14. [In-place Prefix Sum](#14-in-place-prefix-sum)
 15. [Equilibrium Index of an Array](#15-equilibrium-index-of-an-array)
 16. [Even Numbers in a Range](#16-even-numbers-in-a-range)
+17. [Product Array Puzzle](#17-product-array-puzzle)
 
 ---
 
@@ -508,4 +509,52 @@ The subarray for the first query is [2, 1, 8, 3] (index 0 to 3) which contains 2
 The subarray for the second query is [3, 9, 6] (index 3 to 5) which contains 1 even number.
 The subarray for the third query is [1, 8, 3] (index 1 to 3) which contains 1 even number.
 The subarray for the fourth query is [8, 3, 9] (index 2 to 4) which contains 1 even number.
+```
+
+---
+
+## 17. Product Array Puzzle
+
+**Problem Description**
+
+Given an array of integers **A**, find and return the product array of the same size where the ith element of the product array will be equal to the product of all the elements divided by the ith element of the array.
+
+**Note:** 
+- It is always possible to form the product array with integer (32 bit) values. 
+- Solve it without using the division operator.
+
+**Problem Constraints**
+- 2 <= length of the array <= 1000
+- 1 <= A[i] <= 10
+
+**Input Format**
+```
+The only argument given is the integer array A.
+```
+
+**Output Format**
+```
+Return the product array.
+```
+
+**Example**
+
+Input 1:
+```
+A = [1, 2, 3, 4, 5]
+```
+
+Output 1:
+```
+[120, 60, 40, 30, 24]
+```
+
+Input 2:
+```
+A = [5, 1, 10, 1]
+```
+
+Output 2:
+```
+[10, 50, 5, 50]
 ```
