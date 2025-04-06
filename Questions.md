@@ -77,3 +77,46 @@ if __name__ == "__main__":
 ## 12. Find Minimum in Rotated Sorted Array
 [Leetcode Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
 
+## 13. Range Sum Query
+
+---
+
+### Problem Description
+
+You are given an integer array `A` of length `N`.
+
+You are also given a 2D integer array `B` with dimensions `M x 2`, where each row denotes a `[L, R]` query.
+
+For each query, you have to find the sum of all elements from index `L` to `R` in `A` (0-indexed).
+
+More formally, find `A[L] + A[L + 1] + ... + A[R]` for each query.
+
+---
+
+### Problem Constraints
+
+- `1 <= N, M <= 10^5`
+- `1 <= A[i] <= 10^9`
+- `0 <= L <= R < N`
+
+---
+
+### Input Format
+
+- The first argument is the integer array `A`.
+- The second argument is the 2D integer array `B`.
+
+---
+
+### Output Format
+
+Return an integer array of length `M` where the `i-th` element is the answer for the `i-th` query in `B`.
+
+---
+
+### Example Input 1
+
+```text
+A = [1, 2, 3, 4, 5]
+B = [[0, 3], [1, 2]]
+
