@@ -120,3 +120,7 @@ Return an integer array of length `M` where the `i-th` element is the answer for
 A = [1, 2, 3, 4, 5]
 B = [[0, 3], [1, 2]]
 
+### Example Output 1
+```
+Output = [10, 5]
+
