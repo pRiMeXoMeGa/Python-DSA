@@ -1,33 +1,14 @@
 # Array Problems Collection
 
-## Table of Contents
-1. [Find the Maximum and Minimum Element in an Array](#1-find-the-maximum-and-minimum-element-in-an-array)
-2. [Rearrange an Array - Negative Numbers Before Positive Numbers](#2-rearrange-an-array-so-that-all-negative-numbers-appear-before-all-positive-numbers)
-3. [Find the Union and Intersection of Two Sorted Arrays](#3-find-the-union-and-intersection-of-two-sorted-arrays)
-4. [Cyclically Rotate an Array by One](#4-write-a-program-to-cyclically-rotate-an-array-by-one)
-5. [Find First and Last Positions of an Element in a Sorted Array](#5-find-first-and-last-positions-of-an-element-in-a-sorted-array)
-6. [Searching in an Array where Adjacent Differ by at Most k](#6-searching-in-an-array-where-adjacent-differ-by-at-most-k)
-7. [Search in a Rotated Sorted Array](#7-search-in-a-rotated-sorted-array)
-8. [Find Duplicate in an Array of N+1 Integers](#8-find-duplicate-in-an-array-of-n1-integers)
-9. [Sort an Array of 0s, 1s, and 2s](#9-given-an-array-which-consists-of-only-0-1-and-2-sort-the-array-without-using-any-sorting-algo)
-10. [Minimum Number of Jumps to Reach End of an Array](#10-minimum-no-of-jumps-to-reach-end-of-an-array)
-11. [Missing Number](#11-missing-number)
-12. [Find Minimum in Rotated Sorted Array](#12-find-minimum-in-rotated-sorted-array)
-13. [Range Sum Query](#13-range-sum-query)
-14. [In-place Prefix Sum](#14-in-place-prefix-sum)
-15. [Equilibrium Index of an Array](#15-equilibrium-index-of-an-array)
-16. [Even Numbers in a Range](#16-even-numbers-in-a-range)
-17. [Product Array Puzzle](#17-product-array-puzzle)
-
----
-
-## 1. Find the Maximum and Minimum Element in an Array
+<details>
+<summary><h2>1. Find the Maximum and Minimum Element in an Array</h2></summary>
 
 **Problem Link:** [GeeksforGeeks - Maximum and Minimum in an Array](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/)
 
----
+</details>
 
-## 2. Rearrange an Array so that All Negative Numbers Appear Before All Positive Numbers
+<details>
+<summary><h2>2. Rearrange an Array - Negative Numbers Before Positive Numbers</h2></summary>
 
 ### Problem Description
 
@@ -69,71 +50,82 @@ if __name__ == "__main__":
     print()
 ```
 
----
+</details>
 
-## 3. Find the Union and Intersection of Two Sorted Arrays
+<details>
+<summary><h2>3. Find the Union and Intersection of Two Sorted Arrays</h2></summary>
 
 **Problem Link:** [GeeksforGeeks - Union of Two Arrays](https://www.geeksforgeeks.org/problems/union-of-two-arrays3538/1)
 
----
+</details>
 
-## 4. Write a Program to Cyclically Rotate an Array by One
+<details>
+<summary><h2>4. Cyclically Rotate an Array by One</h2></summary>
 
 **Problem Link:** [GeeksforGeeks - Cyclically Rotate an Array](https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1)
 
----
+</details>
 
-## 5. Find First and Last Positions of an Element in a Sorted Array
+<details>
+<summary><h2>5. Find First and Last Positions of an Element in a Sorted Array</h2></summary>
 
 **Problem Link:** [GeeksforGeeks - First and Last Occurrences of X](https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x/0)
 
----
+</details>
 
-## 6. Searching in an Array where Adjacent Differ by at Most k
+<details>
+<summary><h2>6. Searching in an Array where Adjacent Differ by at Most k</h2></summary>
 
 **Problem Link:** [GeeksforGeeks - Searching in an Array with Adjacent Difference](https://www.geeksforgeeks.org/problems/searching-in-an-array-where-adjacent-differ-by-at-most-k0456/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)
 
----
+</details>
 
-## 7. Search in a Rotated Sorted Array
+<details>
+<summary><h2>7. Search in a Rotated Sorted Array</h2></summary>
 
 **Problem Link:** [LeetCode - Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
 
----
+</details>
 
-## 8. Find Duplicate in an Array of N+1 Integers
+<details>
+<summary><h2>8. Find Duplicate in an Array of N+1 Integers</h2></summary>
 
 **Problem Link:** [LeetCode - Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/submissions/1591184118/)
 
----
+</details>
 
-## 9. Given an Array which Consists of Only 0, 1 and 2. Sort the Array Without Using any Sorting Algo
+<details>
+<summary><h2>9. Sort an Array of 0s, 1s, and 2s</h2></summary>
 
 **Problem Link:** [GeeksforGeeks - Sort an Array of 0s, 1s, and 2s](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0)
 
----
+</details>
 
-## 10. Minimum No. of Jumps to Reach End of an Array
+<details>
+<summary><h2>10. Minimum Number of Jumps to Reach End of an Array</h2></summary>
 
 **Problem Link:** [GeeksforGeeks - Minimum Number of Jumps](https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1)
 
 **Solution Article:** [O(n) Solution](https://www.geeksforgeeks.org/minimum-number-jumps-reach-endset-2on-solution/)
 
----
+</details>
 
-## 11. Missing Number
+<details>
+<summary><h2>11. Missing Number</h2></summary>
 
 **Problem Link:** [LeetCode - Missing Number](https://leetcode.com/problems/missing-number/description/)
 
----
+</details>
 
-## 12. Find Minimum in Rotated Sorted Array
+<details>
+<summary><h2>12. Find Minimum in Rotated Sorted Array</h2></summary>
 
 **Problem Link:** [LeetCode - Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
 
----
+</details>
 
-## 13. Range Sum Query
+<details>
+<summary><h2>13. Range Sum Query</h2></summary>
 
 ### Problem Description
 
@@ -172,10 +164,10 @@ B = [[0, 3], [1, 2]]
 ```
 [10, 5]
 ```
+</details>
 
----
-
-## 14. In-place Prefix Sum
+<details>
+<summary><h2>14. In-place Prefix Sum</h2></summary>
 
 ### Problem Description
 
@@ -247,9 +239,10 @@ def prefixSum(A):
 - **Time Complexity**: O(N) - We iterate through the array once
 - **Space Complexity**: O(1) - We modify the array in-place without using additional space
 
----
+</details>
 
-## 15. Equilibrium Index of an Array
+<details>
+<summary><h2>15. Equilibrium Index of an Array</h2></summary>
 
 ### Problem Description
 
@@ -438,9 +431,10 @@ Let's trace through the algorithm with the given example:
 
 Therefore, the equilibrium index is 3.
 
----
+</details>
 
-## 16. Even Numbers in a Range
+<details>
+<summary><h2>16. Even Numbers in a Range</h2></summary>
 
 **Problem Description**
 
@@ -511,9 +505,10 @@ The subarray for the third query is [1, 8, 3] (index 1 to 3) which contains 1 ev
 The subarray for the fourth query is [8, 3, 9] (index 2 to 4) which contains 1 even number.
 ```
 
----
+</details>
 
-## 17. Product Array Puzzle
+<details>
+<summary><h2>17. Product Array Puzzle</h2></summary>
 
 **Problem Description**
 
@@ -558,3 +553,5 @@ Output 2:
 ```
 [10, 50, 5, 50]
 ```
+
+</details>
