@@ -1,5 +1,27 @@
 # Array Problems Collection
 
+## Table of Contents
+1. [Find the Maximum and Minimum Element in an Array](#1-find-the-maximum-and-minimum-element-in-an-array)
+2. [Rearrange an Array - Negative Numbers Before Positive Numbers](#2-rearrange-an-array-so-that-all-negative-numbers-appear-before-all-positive-numbers)
+3. [Find the Union and Intersection of Two Sorted Arrays](#3-find-the-union-and-intersection-of-two-sorted-arrays)
+4. [Cyclically Rotate an Array by One](#4-write-a-program-to-cyclically-rotate-an-array-by-one)
+5. [Find First and Last Positions of an Element in a Sorted Array](#5-find-first-and-last-positions-of-an-element-in-a-sorted-array)
+6. [Searching in an Array where Adjacent Differ by at Most k](#6-searching-in-an-array-where-adjacent-differ-by-at-most-k)
+7. [Search in a Rotated Sorted Array](#7-search-in-a-rotated-sorted-array)
+8. [Find Duplicate in an Array of N+1 Integers](#8-find-duplicate-in-an-array-of-n1-integers)
+9. [Sort an Array of 0s, 1s, and 2s](#9-given-an-array-which-consists-of-only-0-1-and-2-sort-the-array-without-using-any-sorting-algo)
+10. [Minimum Number of Jumps to Reach End of an Array](#10-minimum-no-of-jumps-to-reach-end-of-an-array)
+11. [Missing Number](#11-missing-number)
+12. [Find Minimum in Rotated Sorted Array](#12-find-minimum-in-rotated-sorted-array)
+13. [Range Sum Query](#13-range-sum-query)
+14. [In-place Prefix Sum](#14-in-place-prefix-sum)
+15. [Equilibrium Index of an Array](#15-equilibrium-index-of-an-array)
+16. [Even Numbers in a Range](#16-even-numbers-in-a-range)
+17. [Product Array Puzzle](#17-product-array-puzzle)
+
+---
+
+
 <details>
 <summary><h2>1. Find the Maximum and Minimum Element in an Array</h2></summary>
 
