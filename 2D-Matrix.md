@@ -8,6 +8,7 @@
 - [Q5. Anti Diagonals](#q5-anti-diagonals)
 - [Q6. Matrix Transpose](#q6-matrix-transpose)
 - [Q7. Rotate Matrix](#q7-rotate-matrix)
+- [Q8. Row to Column Zero](#q8-row-to-column-zero)
 
 ---
 
@@ -405,6 +406,49 @@ Explanation 2:
  2 goes to 6, 6 goes to 8
  9 goes to 7, 7 goes to 1
  8 goes to 4, 4 goes to 2
+```
+
+</details>
+
+---
+
+<details>
+<summary>Q8. Row to Column Zero</summary>
+
+**Problem Description**  
+You are given a 2D integer matrix A, make all the elements in a row or column zero if the A[i][j] = 0. Specifically, make entire ith row and jth column zero.
+
+**Problem Constraints**  
+- 1 <= A.size() <= 10³  
+- 1 <= A[i].size() <= 10³  
+- 0 <= A[i][j] <= 10³  
+
+**Input Format**  
+First argument is a 2D integer matrix A.
+
+**Output Format**  
+Return a 2D matrix after doing required operations.
+
+**Example Input**  
+Input 1:  
+```
+[1,2,3,4]
+[5,6,7,0]
+[9,2,0,4]
+```
+
+**Example Output**  
+Output 1:  
+```
+[1,2,0,0]
+[0,0,0,0]
+[0,0,0,0]
+```
+
+**Example Explanation**  
+Explanation 1:  
+```
+A[2][4] = A[3][3] = 0, so make 2nd row, 3rd row, 3rd column and 4th column zero.
 ```
 
 </details>
